@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+    position: relative;
+    padding-top: 0.1px;
+}
+#nav{
+    height: 11vh;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monument;
+    font-size: 45px;
+    letter-spacing: 1px;
+    position: relative;
+    margin-left: 12px;
+}
+#nav h3{
+    display: none;
+}
+.a{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+#nav h2:nth-last-child(2){
+    width: 10%;
+}
+#content {
+    padding: 40px;
+}
+#up{
+    padding: 0px;
+}
+#up h1 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    line-height: 6vw;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#up h1:nth-child(2) {
+     text-align: right;
+}
+#down{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+#down video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#part2{
+    height: 25%;
+    width: 100%;
+    position: relative;
+    padding: 5vw 4vw;
+}
+#part2>h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 7vh;
+}
+#marque{
+    width: 100%;
+    padding: 0.8vw;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#marque h1{
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: monument;
+    letter-spacing: 3px;
+    margin: 16px;
+}
+#marque::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+}
+#marque::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+@media (max-width:600px) {
+    #nav{
+        padding: 0 5vw;
+    }
+    #nav h1{
+        width: 50%;
+        font-weight: 500;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    #nav h3{
+        display: block;
+    }
+    #nav h4{
+        display: none;
+    }
+    #nav h2{
+        display: none;
+    }
+    #part2{
+        height: 0%;
+    }
+    #marque h1{
+        font-size: 3vw;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    #marque::-webkit-scrollbar{
+        display: none;
+    }
+}
