@@ -86,6 +86,7 @@ body{
     object-fit: cover;
 }
 #part2{
+    height:3%
     width: 100%;
     position: relative;
     padding: 5vw 4vw;
