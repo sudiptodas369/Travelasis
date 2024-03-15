@@ -120,6 +120,50 @@ body{
 #marque::-webkit-scrollbar-thumb{
     background-color: orangered;
 }
+@media (max-width:1000px) {
+    #nav{
+        padding: 0 5vw;
+    }
+    #nav h1{
+        width: 31%;
+        font-weight: 900;
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    #nav h3{
+        display: block;
+        font-size: 35px;
+    }
+    #nav h4{
+        display: none;
+    }
+    #nav h2{
+        display: none;
+    }
+    #up{
+        display: block;
+    }
+    #up2{
+        display: none;
+    }
+    #up2 h1:nth-last-child(1){
+        text-align: center;
+    }
+    #up2 h1:nth-last-child(3){
+        text-align:center;
+    }
+    #part2{
+        height: 0%;
+    }
+    #marque h1{
+        font-size: 3vw;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    #marque::-webkit-scrollbar{
+        display: none;
+    }
+}
 @media (max-width:600px) {
     #nav{
         padding: 0 5vw;
