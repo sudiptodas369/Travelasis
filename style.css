@@ -120,7 +120,7 @@ body{
 #marque::-webkit-scrollbar-thumb{
     background-color: orangered;
 }
-@media (max-width:1000px) {
+@media (max-width:950px) {
     #nav{
         padding: 0 5vw;
     }
